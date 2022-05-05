@@ -1,0 +1,114 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+
+    height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: #2155CD;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+
+    background-color: #fff;
+    width: 23.87rem;
+    height: 37.5rem;
+    border-radius: 1.28rem;
+    margin: 0 1.25rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > img {
+
+    max-width: 100%;
+    border-radius: 1.28rem 1.28rem 0 0;
+}
+
+.container > .text-container{
+
+    max-width: 100%;
+    text-align: center;
+    max-width: 90%;
+    margin: 1.87rem 0;
+}
+
+.container > .text-container > p{
+
+    color: gray;
+}
+
+.container > .text-container > h2{
+
+    margin: 0 0 1.25rem 0;
+}
+
+.container > .price-container{
+
+    background-color: #F5EEDC;
+    height: 6.25rem;
+    width: 90%;
+    padding: 0.62rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container > .price-container > .text-container > p{
+
+    color: gray;
+    font-weight: bold;
+}
+
+.container > .price-container > a{
+
+    font-weight: bold;
+}
+
+.container > .payment-btn{
+
+    width: 90%;
+    margin-top: 2.12rem;
+    padding: 1rem;
+    background-color: #2155CD;
+    border-radius: 1rem;
+    color: #fff;
+    border: none;
+}
+
+.container > .payment-btn:hover{
+
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.container > .cancel-btn{
+
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    margin: 2rem 0;
+
+}
+
+.container > .cancel-btn:hover{
+
+    color: black;
+}
+
+
+
